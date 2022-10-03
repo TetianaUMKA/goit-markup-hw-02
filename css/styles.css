@@ -1,7 +1,7 @@
-/* Common css */
+/* common css */
 
 :root {
-    --accent-color-text: #2196F3;
+    --accent-color: #2196F3;
     --main-color-text: #212121;
     --secondary-color-text: #757575;
     --logo-color-text: #000000;
@@ -18,9 +18,8 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--main-color-bg);
     color: var(--secondary-color-text)
-    
-    
 }
+
 .logo {
     font-family: 'Raleway';
     font-style: normal;
@@ -28,7 +27,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--accent-color-text);
+    color: var(--accent-color);
 }
 .logo-header {
     color: var(--logo-color-text);
@@ -36,7 +35,6 @@ body {
 .logo-footer {
     color: var(--white-color-text);
 }
-
 
 .visually-hidden {
     position: absolute;
@@ -65,8 +63,7 @@ button {
     border: transparent;
 }
 
-
-/* Site nav */
+/* site nav */
 
 .link {
     font-style: normal;
@@ -82,12 +79,11 @@ button {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: var(--accent-color-text);
+    color: var(--accent-color);
 }
 
-
 .site-nav .link.current {
-    color: var(--accent-color-text);
+    color: var(--accent-color);
 } 
 
 .header-contacts .contacts {
@@ -100,9 +96,8 @@ button {
 }
 .header-contacts .contacts:hover,
 .header-contacts .contacts:focus {
-    color: var(--accent-color-text);
+    color: var(--accent-color);
 }
-
 
 footer {
     background-color: var(--footer-color-bg);
@@ -118,7 +113,7 @@ footer {
 
 .footer-contacts .address:hover,
 .footer-contacts .address:focus {
-    color: var(--accent-color-text);
+    color: var(--accent-color);
 }
 
 .footer-contacts .mailo,
@@ -128,17 +123,16 @@ footer {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--contacts-footer);
-    
 }
 
 .footer-contacts .mailo:hover,
 .footer-contacts .mailo:focus {
-    color: var(--accent-color-text);
+    color: var(--accent-color);
 }
 
 .footer-contacts .tel:hover,
 .footer-contacts .tel:focus {
-    color: var(--accent-color-text);
+    color: var(--accent-color);
 }
 
 /* index.html css */
@@ -165,7 +159,7 @@ footer {
     line-height: 1.88; 
     text-align: center;
     letter-spacing: 0.06em;
-    background-color: #2196F3;
+    background-color: var(--accent-color);
     color: var(--white-color-text);
 }
 
@@ -239,7 +233,7 @@ footer {
 
 .filter-button:hover,
 .filter-button:focus {
-    background-color: var(--accent-color-text);
+    background-color: var(--accent-color);
     color: var(--white-color-text);
 }
 
