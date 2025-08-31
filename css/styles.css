@@ -96,6 +96,10 @@ button:focus {
   color: #fff;
 }
 
+.team-section {
+  background-color: #f4f4fd;
+}
+
 .footer .logo-accent {
   color: #f4f4fd;
 }
